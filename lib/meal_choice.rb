@@ -4,7 +4,7 @@
 
 protein= gets.chomp
 
-def meal_choice(veg1="broccoli", veg2="macaroni", protein="meat")
+def meal_choice(veg1="broccoli", veg2="macaroni", protein=gets.chomp)
   puts "What a nutritious meal!"
  puts "A plate of #{protein} with #{veg1} and #{veg2}."
 end 
